@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+}
+#container {
+    width: 100%;
+
+    min-width: 288px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 0 10px;
+}
+nav .menu ul {
+    visibility: hidden;
+    position: absolute;
+    display: none;
+}
+
+nav.open {
+    opacity: 1;
+    visibility: visible;
+    background: #fff;
+    height: 100vh;
+    width: 100vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav.open .menu ul {
+    visibility: visible;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+    top: 90px;
+    left: 40px;
+}
+
+nav.open .menu ul li a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav.open .icon-menu {
+    visibility: hidden;
+}
+
+nav .icon-close {
+    visibility: hidden;
+
+    position: absolute;
+
+    right: 1.5rem;
+}
+
+nav.open .icon-close {
+    visibility: visible;
+    opacity: 1;
+    color: red;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+main.content .c-text {
+    padding: 96px 24px;
+    display: flex;
+    /* align content alinha no eixo Y(causa espaçamento no eixo Y enquanto no eixo X é justify content)*/
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+
+.c-text .we {
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #918a8a;
+}
+
+.c-text .we {
+    cursor: auto;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 18px;
+}
+
+span.we span {
+    color: #4f46e5;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.c-text .we hr + span {
+    color: #4b5563;
+}
+
+hr {
+    margin: 0 10px;
+    display: inline;
+    border: none;
+    border-right: 1px solid #2b2a2a;
+}
+
+main.content h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: 700px;
+}
+
+main.content .c-text p {
+    text-align: left;
+
+    color: rgb(75 85 99);
+    margin-top: 24px;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+main.content .button-c {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 60px;
+}
+
+main.content .button {
+    color: white;
+    background-color: rgb(29, 81, 238);
+    border-radius: 6px;
+    padding: 10px 14px;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.button.shadow {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+a.button.shadow:hover {
+    transition: 200ms;
+    background-color: rgb(63, 107, 239);
+    box-shadow: rgba(63, 107, 239, 0.205) 0px 3px 6px,
+        rgba(29, 81, 238, 0.284) 0px 3px 6px;
+}
+
+main.content .button + .button {
+    background: #fff;
+    color: #2b2a2a;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    transition: 200ms;
+}
+
+main.content .button + .button:hover {
+    color: #5f5e5e;
+}
+
+.img img {
+    display: none;
+}
+
+section.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 84px 24px;
+    /* margin: 0 24px; */
+    background-color: #111827;
+    border-radius: 10px 10px 0 0;
+}
+
+section.content .c-text h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+section.content .c-text p {
+    margin: 24px 0 15px;
+    font-size: 19px;
+    line-height: 32px;
+
+    color: #d1d5db;
+}
+
+section.content ul.contacts {
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+section.content ul.contacts li a img {
+    width: 30px;
+}
+
+@media (min-width: 760px) {
+    #container {
+        margin: 0 auto;
+
+        width: 100%;
+        max-width: 1300px;
+    }
+
+    nav .menu ul {
+        visibility: visible;
+    }
+    .icon-menu {
+        display: none;
+        visibility: hidden;
+    }
+
+    nav.open .menu {
+        display: none;
+    }
+
+    header {
+        padding: 10px -10px;
+        margin: 0;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+    }
+    nav .menu ul {
+        margin: 30px 0;
+        list-style: none;
+        position: static;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        gap: 23px;
+    }
+    nav .menu ul li a {
+        text-decoration: none;
+        color: #000000;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    nav .menu ul li a:hover {
+        color: #9a8c8c;
+    }
+
+    main.content {
+        margin: 0 auto;
+        max-width: 1294px;
+        padding: 96px 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    main.content .c-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    main.content .c-text h1 {
+        font-size: 60px;
+    }
+
+    main.content .c-text p {
+        font-size: 20px;
+    }
+
+    main.content .c-text .button-c a {
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+
+    .img img {
+        width: 600px;
+        display: block;
+    }
+    .img {
+        margin-left: 70px;
+    }
+
+    .c-text a.we {
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 18px;
+    }
+
+    a span {
+        color: #4f46e5;
+        font-weight: 700;
+        font-size: 16px;
+    }
+
+    hr {
+        margin: 0 10px;
+        display: inline;
+        border: none;
+        border-right: 1px solid #2b2a2a;
+    }
+
+    #container section.content {
+        max-width: 1294px;
+        text-align: center;
+
+        padding: 75px 24px 40px;
+    }
+
+    section.content .c-text h2 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 38px;
+    }
+
+    section.content .c-text p {
+        margin: 24px 0 15px;
+        font-size: 19px;
+        line-height: 32px;
+
+        color: #d1d5db;
+    }
+}

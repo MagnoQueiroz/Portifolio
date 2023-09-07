@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="./assets/css/web.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <img
+                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600 "
+                    width="50px"
+                    alt=""
+                    srcset=""
+                />
+                <nav class="">
+                    <div class="menu">
+                        <ul>
+                            <li><a href="https://www.google.com">GITHUB</a></li>
+                            <li><a href="#">CURRÍCULO</a></li>
+                            <li><a href="#">PROJETOS</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="toggle icon-menu" onclick="toggleMenu()">
+                        <svg
+                            width="28px"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                            ></path>
+                        </svg>
+                    </div>
+                    <div class="toggle icon-close" onclick="toggleMenu(true)">
+                        <svg
+                            width="25px"
+                            height="25px"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            aria-hidden="true"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            ></path>
+                        </svg>
+                    </div>
+                </nav>
+            </header>
+
+            <main class="content">
+                <div class="c-text">
+                    <span class="we" href="#">
+                        <span>Hello</span>
+                        <hr />
+                        <span>about me :)</span>
+                    </span>
+
+                    <h1>Felipe Magno</h1>
+
+                    <p>
+                        Programador amador que gosta de se arriscar por diversas
+                        areas. Atualmente estou cursando Tecnologia da
+                        Informação(TI) na Universidade Federal Rural do
+                        Semi-Árido(Ufersa).
+                    </p>
+
+                    <div class="button-c">
+                        <a class="button shadow" href="https://github.com/MagnoQueiroz">GITHUB</a>
+                        <a class="button" href="https://encurtador.com.br/lsD48" download="curriculo"
+                            >Currículo
+                            <svg
+                                width="18px"
+                                height="18px"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                                ></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="./assets/img/dev.png" alt="" />
+                </div>
+            </main>
+
+            <section class="content">
+                <div class="c-text">
+                    <h2>REDES SOCIAIS</h2>
+                    <p>
+                        Caso queira entrar em contato comigo, estes são os meios
+                        para me contactar:
+                    </p>
+                </div>
+
+                <ul class="contacts">
+                    <li>
+                        <a href="https://wa.me/5588998213313" target="_blank"
+                            ><img
+                                src="./assets/img/zap.svg"
+                                alt="Ícone da logo do WhatsApp"
+                        /></a>
+                    </li>
+                    <li>
+                        <a
+                            href="https://github.com/MagnoQueiroz"
+                            target="_blank"
+                            ><img
+                                src="./assets/img/github.svg"
+                                alt="Ícone da logo do github"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="mailto:felipehmagnop@gmail.com" target="_blank"
+                            ><img
+                                src="./assets/img/gmail.svg"
+                                alt="Ícone da logo do gmail"
+                        /></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/felipe-queiroz-6b9754240/" target="_blank"
+                            ><img
+                                src="./assets/img/linkedin.svg"
+                                alt="Ícone da logo do LinkedIn"
+                        /></a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <script src="./assets/js/menu.js"></script>
+    </body>
+</html>
