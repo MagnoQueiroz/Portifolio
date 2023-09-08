@@ -103,7 +103,7 @@ main.content .c-text {
 }
 
 span.we span {
-    color: #4f46e5;
+    color: #11c2d2;
     font-weight: 700;
     font-size: 16px;
 }
@@ -145,7 +145,7 @@ main.content .button-c {
 
 main.content .button {
     color: white;
-    background-color: rgb(29, 81, 238);
+    background-color: #00dbe3;
     border-radius: 6px;
     padding: 10px 14px;
     cursor: pointer;
@@ -157,7 +157,7 @@ a.button.shadow {
 }
 a.button.shadow:hover {
     transition: 200ms;
-    background-color: rgb(63, 107, 239);
+    background-color: #00abbd;
     box-shadow: rgba(63, 107, 239, 0.205) 0px 3px 6px,
         rgba(29, 81, 238, 0.284) 0px 3px 6px;
 }
@@ -188,7 +188,7 @@ section.content {
     text-align: center;
     padding: 84px 24px;
     /* margin: 0 24px; */
-    background-color: #111827;
+    background-color:#01333d ;
     border-radius: 10px 10px 0 0;
 }
 
