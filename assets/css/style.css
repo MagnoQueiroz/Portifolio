@@ -270,7 +270,7 @@ section.content ul.contacts li a img {
     main.content {
         margin: 0 auto;
         max-width: 1294px;
-        padding: 96px 10px;
+        padding: 40px 10px;
         display: flex;
         flex-direction: row;
         align-items: center;
