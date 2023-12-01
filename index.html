@@ -4,8 +4,9 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
-        <link rel="stylesheet" href="./assets/css/web.css" />
+        <link rel="stylesheet" href="./assets/css/projects.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     </head>
     <body>
         <div id="container">
@@ -16,12 +17,12 @@
                         <ul>
                             <li>
                                 <a href="https://github.com/MagnoQueiroz"
-                                    >GITHUB</a
+                                    >LINKEDIN</a
                                 >
                             </li>
                             <li>
                                 <a href="https://encurtador.com.br/lsD48"
-                                    >CURRÍCULO</a
+                                    >PROJETOS</a
                                 >
                             </li>
                             <li><a href="#contacts">CONTATO</a></li>
@@ -93,7 +94,7 @@
                         >
                         <a
                             class="button"
-                            href="https://www.linkedin.com/ambry/?x-li-ambry-ep=AQIEvTS7fTvDtQAAAYpyAGhhAx42LbsII2lvOC4LAoGmv4Wa8uiKFkMmz1fYn9XdegDGCgtDeLIO0jsq9GkwCZKxEb8WtGkvLwlwnj99m1O_fqKlv1eoKyOYDAAQXxOlEDelZGKA2CE2a5bKdHjuxYtjIGL5avJqBLucfcqCn4TjAry1AHOyFl62fSFFSIwQX2Jfi6u5w_CKsvmr5HbXhnHgVf3PNcEpKEZt8WcDy9tn8A14HKU76Tutj7QcjhvyCvad7uJDHnRonSbC-LTL9f3Tx2LYc_Xa2wEJ2LxfiemtPNYjwgR13D7de2-Ryc6Mwx9N8qrqoO6Uqbv2ng1-tw4U9fDrjUcSv0TLmYQ_YQx92jJoA14nsFZcWc2o7np4gc8tg7B9SfFj_-BR3K0Hfyxbei54x4R9vR1WqLcrV172LLTN9s5z0KJYRUd2CEYL7jkpZWlTqGf-u4Zj3k09PC4C4gwo6Zd28DCzgCvOcOyZ9x9kpH1UcxSqBKfuxOzOciOn_-eRM7XHeiHSzzO9U4sGr3gm3ubSPq6GRF1e8dwrrZglNgQdNn_x8Zg-IW3m6aZZWpY&x-ambry-um-filename=Curriculo.pdf"
+                            href="https://www.linkedin.com/ambry/?x-li-ambry-ep=AQIaVtT5tWdJ2AAAAYwlyG7Ie67nN4R6ShnBSWTvh50-kjm7Xe_5T05SKWKr3CNkRXCiLXa9lCGoY6dSNutrZJYO1DAtcW1clyUsXzIE1vThdEOLPsLnLRzxKf2OV-46U4pa4pkuOgiiv0-NWvxZhm-L1svR2__eDsrmUMKha0He1tGHWBF2l8M3u3Trw_jq24BnfDEjNq7uGPFOse5MWmyHCRMtUG5xD_43rW2E5BZ_5kVqfwYpxPDnKep1Xoj9RoaJ-G6gbUc9KQgYkG9QGiO4S-JzxR7rTKpToUydztKNBF1tJJmp5p274PJM7pRSVqD6PSvw-EYWBYM3SzHJqwiYGODgfqXtaBZEn5LppgjNpMCFK0l0UPGyMTRZm313sotZKf8Cwh_K0BGJ4eKGv4p20dRVOdT_71kb8CIHupnjE_M1ZK7yt8Rg-532cLeCWFJ0OfNsF8i6BMnSKivXqWJdHtq2-pVHngjbuJlUU_YHWEr8X8GUAPJmGgtI1EyBDS0PD8xMDu6M8wtSfZ7sKItG-ra5Hqiyj7x7N4yxoLD9B21OeGzw9ycynuBNNV254WrNk5g&x-ambry-um-filename=Profile.pdf"
                             download="currículo"
                             >Currículo
                             <svg
@@ -119,6 +120,26 @@
                     <img src="./assets/img/dev.png" alt="" />
                 </div>
             </main>
+            <section id="project">
+                <div class=" swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"> <img src="./assets/img/kisspng-website-development-javascript-html5-css3-cascadin-appload-comprehensive-software-and-mobile-app-de-5b7b834e216377.0246733915348211981368.png" height="150px" "><span>cronometro</span></a></div>
+                        <div class="swiper-slide">Slide 2</div>
+                        <div class="swiper-slide">Slide 3</div>
+                        <div class="swiper-slide">Slide 4</div>
+                        <div class="swiper-slide">Slide 5</div>
+                        <div class="swiper-slide">Slide 6</div>
+                        <div class="swiper-slide">Slide 7</div>
+                        <div class="swiper-slide">Slide 8</div>
+                        <div class="swiper-slide">Slide 9</div>
+                    </div>
+                        <div class="swiper-pagination"></div>
+<!--
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div> -->
+
+                </div>
+            </section>
 
             <section class="content" id="contacts">
                 <div class="c-text">
@@ -165,6 +186,7 @@
                 </ul>
             </section>
         </div>
+        <script src="assets/js/swiper-bundle.min.js"></script>
         <script src="./assets/js/menu.js"></script>
     </body>
 </html>
