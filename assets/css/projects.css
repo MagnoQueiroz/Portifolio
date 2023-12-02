@@ -14,6 +14,7 @@ section#project .swiper-slide {
     background: #f7f5f5;
 
     display: flex;
+    gap: 12px;
     justify-content: center ;
     align-items: center;
 
@@ -36,7 +37,6 @@ section#project .text-p {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    padding-right: 20px;
 }
 
 section#project b {
@@ -47,6 +47,7 @@ section#project b {
 section#project span {
     font-size: 18px;
 }
+
 section#project a {
     display: inline-block;
     padding: 15px 20px;
@@ -71,3 +72,4 @@ section#project .swiper {
 .swiper-navigation:hover {
     color: #04b7c7 !important;
 }
+

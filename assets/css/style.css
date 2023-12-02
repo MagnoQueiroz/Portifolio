@@ -207,6 +207,49 @@ section.content ul.contacts li a img {
     width: 30px;
 }
 
+
+
+
+@media(max-width:800px) {
+    #container main.content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #container main.content .img {
+      margin: 0 auto;
+    }
+    .swiper-wrapper {
+    padding:0px;
+    margin: 0px 10px 40px;
+}
+
+section#project .swiper-slide {
+    text-align: center;
+    height: 400px;
+    min-width: 16rem;
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+section#project .swiper-slide img {
+    height: 110px;
+
+}
+
+
+section#project b {
+    margin-top: 15px;
+}
+
+section#project span {
+    font-size: 17px;
+}
+
+}
+
 @media (min-width: 760px) {
     #container {
         margin: 0 auto;
