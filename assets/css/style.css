@@ -73,7 +73,7 @@ nav.open .icon-close {
     color: red;
 }
 
-.content {
+#container .content {
     margin: 0 auto;
 }
 
@@ -208,8 +208,6 @@ section.content ul.contacts li a img {
 }
 
 
-
-
 @media(max-width:800px) {
     #container main.content {
         display: flex;
@@ -220,31 +218,31 @@ section.content ul.contacts li a img {
     #container main.content .img {
       margin: 0 auto;
     }
-    .swiper-wrapper {
+    #container section#project .swiper .swiper-wrapper {
     padding:0px;
     margin: 0px 10px 40px;
 }
 
-section#project .swiper-slide {
+#container section#project .swiper .swiper-wrapper .swiper-slide {
     text-align: center;
     height: 400px;
     min-width: 16rem;
-    
+
     flex-direction: column;
     align-items: center;
 }
 
-section#project .swiper-slide img {
+#container section#project .swiper .swiper-wrapper .swiper-slide img {
     height: 110px;
 
 }
 
 
-section#project b {
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p b {
     margin-top: 15px;
 }
 
-section#project span {
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p span {
     font-size: 17px;
 }
 
