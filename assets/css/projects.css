@@ -3,7 +3,7 @@
     height: 100%;
 }
 #container section#project .swiper .swiper-wrapper {
-    padding:0 4px;
+    padding: 0 4px;
     margin: 10px 0px 35px;
 }
 
@@ -15,7 +15,7 @@
 
     display: flex;
     gap: 12px;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
 
     border-radius: 5px;
@@ -56,6 +56,16 @@
     font-weight: bold;
     background-color: #01d2d9;
     color: #fff;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+        rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p a:hover {
+    transition: 300ms;
+    background-color: #04b7c7;
+    box-shadow: rgba(63, 107, 239, 0.205) 0px 3px 6px,
+        rgba(29, 81, 238, 0.284) 0px 3px 6px;
 }
 
 #container section#project .swiper {
@@ -73,4 +83,3 @@
 .swiper-navigation:hover {
     color: #04b7c7 !important;
 }
-

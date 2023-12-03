@@ -164,7 +164,7 @@ main.content .button + .button {
     gap: 16px;
     transition: 300ms;
 }
-main.content .button + .button:hover {
+main.content a.button + a.button:hover {
     color: #5f5e5e;
 }
 main.content .img img {
