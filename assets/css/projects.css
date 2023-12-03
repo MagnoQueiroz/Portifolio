@@ -1,13 +1,13 @@
-section#project .swiper {
+#container section#project .swiper {
     width: 100%;
     height: 100%;
 }
-.swiper-wrapper {
+#container section#project .swiper .swiper-wrapper {
     padding:0 4px;
     margin: 10px 0px 35px;
 }
 
-section#project .swiper-slide {
+#container section#project .swiper .swiper-wrapper .swiper-slide {
     text-align: center;
     height: 230px;
     min-width: 40rem;
@@ -23,14 +23,14 @@ section#project .swiper-slide {
         rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-section#project .swiper-slide img {
+#container section#project .swiper .swiper-wrapper .swiper-slide img {
     /* width: 100%;
     height: 100%; */
     height: 110px;
     object-fit: cover;
 }
 
-section#project .text-p {
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -39,16 +39,16 @@ section#project .text-p {
     gap: 10px;
 }
 
-section#project b {
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p b {
     font-size: 23px;
     color: #000;
 }
 
-section#project span {
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p span {
     font-size: 18px;
 }
 
-section#project a {
+#container section#project .swiper .swiper-wrapper .swiper-slide .text-p a {
     display: inline-block;
     padding: 15px 20px;
     border-radius: 6px;
@@ -57,7 +57,8 @@ section#project a {
     background-color: #01d2d9;
     color: #fff;
 }
-section#project .swiper {
+
+#container section#project .swiper {
     margin-left: auto;
     margin-right: auto;
 }
