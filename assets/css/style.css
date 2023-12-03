@@ -208,7 +208,7 @@ section.content ul.contacts li a img {
 }
 
 
-@media(max-width:800px) {
+@media(max-width:1025px) {
     #container main.content {
         display: flex;
         align-items: center;
